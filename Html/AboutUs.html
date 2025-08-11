@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | PhotoStock</title>
+    <link rel="stylesheet" href="/Css/AboutUs.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="Home.html">
+                    <h1>PhotoStock</h1>
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#" class="active">About Us</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button class="join-btn">Join</button>
+                <button class="login-btn">Login</button>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="about-container">
+        <section class="hero-section">
+            <h1>Sharing the World Through Images</h1>
+            <p>Our mission is to make visual content accessible to everyone</p>
+        </section>
+
+        <section class="our-story">
+            <h2>Our Story</h2>
+            <div class="story-content">
+                <div class="story-text">
+                    <p>Founded in 2020, ImageDonate began as a small community of photographers who believed in the
+                        power of sharing. What started as a passion project among friends has grown into a global
+                        platform with thousands of contributors and millions of images donated.</p>
+                    <p>We recognized that while the internet is full of images, finding truly free, high-quality visuals
+                        was challenging for many creators, educators, and non-profits. Our platform bridges this gap by
+                        connecting generous photographers with those who need their work.</p>
+                </div>
+                <div class="story-image">
+                    <img src="https://res.cloudinary.com/ddpvhxnus/image/upload/v1754745400/photo-1521737852567-6949f3f9f2b5_ysitbk.avif"
+                        alt="Our founding team">
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <h2>How Image Donation Works</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-icon">1</div>
+                    <h3>Photographers Donate</h3>
+                    <p>Creators upload their high-quality images to our platform, choosing which license to apply.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">2</div>
+                    <h3>We Verify Quality</h3>
+                    <p>Our team reviews each submission to ensure it meets our technical and artistic standards.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">3</div>
+                    <h3>Images Go Live & Community Grows</h3>
+                    <p>Approved photos are made available for free download to registered users.
+                        Photographers are credited, and the community shares how they've used the images.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="impact-stats">
+            <h2>Our Impact</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">25,000+</div>
+                    <div class="stat-label">Generous Contributors</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2.5M+</div>
+                    <div class="stat-label">Images Donated</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Countries Served</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10M+</div>
+                    <div class="stat-label">Monthly Downloads</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <h2>Meet Our Team</h2>
+            <div class="team-members">
+                <div class="member">
+                    <img src="https://res.cloudinary.com/ddpvhxnus/image/upload/v1754747450/photo-1562788869-4ed32648eb72_tpqtwt.avif"
+                        alt="Sarah Johnson">
+                    <h3>Sarah Johnson</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="member">
+                    <img src="https://res.cloudinary.com/ddpvhxnus/image/upload/v1754747449/photo-1590650213165-c1fef80648c4_hqtj2i.avif"
+                        alt="Michael Chen">
+                    <h3>Michael Chen</h3>
+                    <p>Head of Community</p>
+                </div>
+                <div class="member">
+                    <img src="https://res.cloudinary.com/ddpvhxnus/image/upload/v1754747576/photo-1708765871947-65159112de90_pasa8x.avif"
+                        alt="Emma Rodriguez">
+                    <h3>Emma Rodriguez</h3>
+                    <p>Content Creator</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>PhotoStock</h3>
+                <p>Making visual content accessible to everyone through the power of sharing.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">License Information</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 PhotoStock. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="auth-modal" id="authModal">
+        <div class="auth-content">
+            <span class="close-auth">&times;</span>
+            <div class="auth-tabs">
+                <button class="tab-btn active" data-tab="login">Login</button>
+                <button class="tab-btn" data-tab="join">Join</button>
+            </div>
+            <div class="tab-content active" id="login">
+                <form>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            <div class="tab-content" id="join">
+                <form>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Create Account</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/Js/authModal.js"></script>
+</body>
+
+</html>
