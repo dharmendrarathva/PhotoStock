@@ -221,5 +221,5 @@ function init() {
 
 document.addEventListener('DOMContentLoaded', init);
 document.querySelector('.logo').addEventListener('click', () => {
-    window.location.href = 'Html/Home.html';
+    window.location.href = 'Home.html';
 });
